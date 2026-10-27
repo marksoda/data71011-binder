@@ -7,8 +7,8 @@ Open the Binder badge and choose Run → Restart Kernel and Run All Cells.
 `postBuild` downloads the public dataset from a fixed Software Carpentry commit during image construction.
 
 ## Environment exercise
-Initial environment: NumPy 1.25.0, with pandas and Matplotlib initially unpinned, following the tutorial.
-Lab 1.3: inspect actual Binder versions, then pin the installed versions and Python major/minor and rebuild.
+Initial Binder run: Python 3.10.19, NumPy 1.25.0, pandas 2.3.3, Matplotlib 3.10.9.
+These observed package versions are now pinned, with Python major/minor set in runtime.txt.
 
 Binder edits are temporary. Download the executed notebook and upload it here to retain outputs.
 
