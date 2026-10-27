@@ -1,6 +1,6 @@
 # DATA71011 Week 5 — Lab 1
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marksoda/data71011-binder/HEAD?labpath=zero_to_binder.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marksoda/data71011-binder/HEAD?urlpath=%2Fdoc%2Ftree%2Fzero_to_binder.ipynb)
 
 Open the Binder badge and choose Run → Restart Kernel and Run All Cells.
 `zero_to_binder.ipynb` runs `hello.py`, records versions, and plots Australia from the tutorial's Gapminder dataset.
@@ -22,3 +22,6 @@ Status: pending an actual neighbour exchange; no partner results have been claim
 - [Dataset source](https://github.com/swcarpentry/python-novice-gapminder/tree/95ef5c0c87e347a40cf916ab44fd95dae1c0344c/data)
 
 Prepared with AI assistance; review the code and explanations as part of the workshop.
+
+## Validation
+The pinned environment was rebuilt and the notebook was run top-to-bottom in a new Binder session. All six code cells completed without errors; the dataset check returned shape (2, 12).
